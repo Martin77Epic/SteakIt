@@ -28,7 +28,7 @@ class Main extends PluginBase implements Listener{
                }else{
                     $steaks = $this->config->get("steaks");
                     $sender->getInventory()->addItem(Item::get(364,0,$steaks);
-                    $sender->sendMessage("Du hast 10 gratis Steak bekommen!");
+                    $sender->sendMessage("Du hast gratis Steak bekommen!");
                }
           }
           return true;
